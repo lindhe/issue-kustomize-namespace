@@ -1,7 +1,0 @@
-apiVersion: v1
-data:
-  embeddedString: via-helm
-kind: ConfigMap
-metadata:
-  name: cm-with-namespace
-  namespace: via-helm

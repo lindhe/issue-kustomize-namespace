@@ -1,0 +1,8 @@
+---
+apiVersion: v1
+data:
+  embeddedString: "{{ .Release.Namespace }}"
+kind: ConfigMap
+metadata:
+  name: cm-with-namespace
+  namespace: "{{ .Release.Namespace }}"

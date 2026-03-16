@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  embeddedString: via-helm
+kind: ConfigMap
+metadata:
+  name: cm-without-namespace
+  namespace: via-kustomize
